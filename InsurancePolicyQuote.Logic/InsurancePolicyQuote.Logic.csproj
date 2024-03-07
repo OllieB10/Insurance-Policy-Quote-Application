@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{96CACE6A-6590-4F15-B216-B54CC0105E99}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InsurancePolicyQuote.Logic</RootNamespace>
+    <AssemblyName>InsurancePolicyQuote.Logic</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enums\LicenceType.cs" />
+    <Compile Include="Interfaces\IBlankLine.cs" />
+    <Compile Include="Interfaces\ICalculation.cs" />
+    <Compile Include="Interfaces\IClaimCost.cs" />
+    <Compile Include="Interfaces\ICoverInputDetails.cs" />
+    <Compile Include="Interfaces\IDateFormats.cs" />
+    <Compile Include="Interfaces\IDateHelper.cs" />
+    <Compile Include="Interfaces\IDeclineQuote.cs" />
+    <Compile Include="Interfaces\IDriverInputDetails.cs" />
+    <Compile Include="Interfaces\IExitApplication.cs" />
+    <Compile Include="Interfaces\IIncidentInputHandler.cs" />
+    <Compile Include="Interfaces\ILicenceInputDetails.cs" />
+    <Compile Include="Interfaces\ILicencingAuthoritiesHandler.cs" />
+    <Compile Include="Interfaces\IMinimumPremiumChecker.cs" />
+    <Compile Include="Interfaces\IMotorConvictionsValidator.cs" />
+    <Compile Include="Interfaces\IPersonInputDetails.cs" />
+    <Compile Include="Interfaces\IProposerMessages.cs" />
+    <Compile Include="Interfaces\IReadFromConsole.cs" />
+    <Compile Include="Interfaces\IValidateUserInput.cs" />
+    <Compile Include="Interfaces\IVehicleInputDetails.cs" />
+    <Compile Include="Interfaces\IVehicleParkingLocationHandler.cs" />
+    <Compile Include="Interfaces\IWriteNewLine.cs" />
+    <Compile Include="Interfaces\IYesNoInputHandler.cs" />
+    <Compile Include="Model\Driver.cs" />
+    <Compile Include="Enums\ClaimsFault.cs" />
+    <Compile Include="Enums\ClaimsNonFault.cs" />
+    <Compile Include="Enums\CoverType.cs" />
+    <Compile Include="Enums\DriverAges.cs" />
+    <Compile Include="Enums\Gender.cs" />
+    <Compile Include="Enums\IncidentType.cs" />
+    <Compile Include="Enums\NCB.cs" />
+    <Compile Include="Enums\ParkingLocations.cs" />
+    <Compile Include="Enums\RelationshipStatus.cs" />
+    <Compile Include="Enums\VehicleAge.cs" />
+    <Compile Include="Enums\VehicleSeats.cs" />
+    <Compile Include="Enums\VehicleTransmission.cs" />
+    <Compile Include="Enums\VehicleUse.cs" />
+    <Compile Include="Enums\VehicleValue.cs" />
+    <Compile Include="Interfaces\IVehicle.cs" />
+    <Compile Include="Interfaces\IProposer.cs" />
+    <Compile Include="Interfaces\IDriver.cs" />
+    <Compile Include="Interfaces\IMotorClaim.cs" />
+    <Compile Include="Interfaces\IPolicy.cs" />
+    <Compile Include="Model\MotorClaim.cs" />
+    <Compile Include="Model\NoClaimsBonus.cs" />
+    <Compile Include="Model\Policy.cs" />
+    <Compile Include="Model\Proposer.cs" />
+    <Compile Include="RatingTable\BaseRateTable.cs" />
+    <Compile Include="RatingTable\ClaimsTable.cs" />
+    <Compile Include="RatingTable\CoverTypeTable.cs" />
+    <Compile Include="Interfaces\IBaseRateTable.cs" />
+    <Compile Include="Interfaces\IClaimsTable.cs" />
+    <Compile Include="Interfaces\ICoverTypeTable.cs" />
+    <Compile Include="Interfaces\IDriverAgeTable.cs" />
+    <Compile Include="Interfaces\ISeatsTable.cs" />
+    <Compile Include="Interfaces\IVehicleAgeTable.cs" />
+    <Compile Include="Interfaces\IVehicleTransmissionTable.cs" />
+    <Compile Include="Interfaces\IVehicleUseTable.cs" />
+    <Compile Include="Interfaces\IVehicleValueTable.cs" />
+    <Compile Include="Interfaces\IMinimumPremiumTable.cs" />
+    <Compile Include="Interfaces\IMotorConvictionsTable.cs" />
+    <Compile Include="RatingTable\MinimumPremiumTable.cs" />
+    <Compile Include="RatingTable\MotorConvictionsTable.cs" />
+    <Compile Include="RatingTable\SeatsTable.cs" />
+    <Compile Include="RatingTable\DriverAgeTable.cs" />
+    <Compile Include="RatingTable\VehicleAgeTable.cs" />
+    <Compile Include="RatingTable\VehicleTransmissionTable.cs" />
+    <Compile Include="RatingTable\VehicleUseTable.cs" />
+    <Compile Include="RatingTable\VehicleValueTable.cs" />
+    <Compile Include="Model\Vehicle.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

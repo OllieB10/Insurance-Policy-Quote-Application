@@ -1,0 +1,10 @@
+C:\Users\oliver brennan\source\repos\InsurancePolicyQuoteApp\InsurancePolicyQuote\bin\Debug\InsurancePolicyQuote.exe.config
+C:\Users\oliver brennan\source\repos\InsurancePolicyQuoteApp\InsurancePolicyQuote\bin\Debug\InsurancePolicyQuote.exe
+C:\Users\oliver brennan\source\repos\InsurancePolicyQuoteApp\InsurancePolicyQuote\bin\Debug\InsurancePolicyQuote.pdb
+C:\Users\oliver brennan\source\repos\InsurancePolicyQuoteApp\InsurancePolicyQuote\obj\Debug\InsurancePolicyQuote.csproj.AssemblyReference.cache
+C:\Users\oliver brennan\source\repos\InsurancePolicyQuoteApp\InsurancePolicyQuote\obj\Debug\InsurancePolicyQuote.csproj.CoreCompileInputs.cache
+C:\Users\oliver brennan\source\repos\InsurancePolicyQuoteApp\InsurancePolicyQuote\obj\Debug\InsurancePolicyQuote.exe
+C:\Users\oliver brennan\source\repos\InsurancePolicyQuoteApp\InsurancePolicyQuote\obj\Debug\InsurancePolicyQuote.pdb
+C:\Users\oliver brennan\source\repos\InsurancePolicyQuoteApp\InsurancePolicyQuote\bin\Debug\InsurancePolicyQuote.Logic.dll
+C:\Users\oliver brennan\source\repos\InsurancePolicyQuoteApp\InsurancePolicyQuote\bin\Debug\InsurancePolicyQuote.Logic.pdb
+C:\Users\oliver brennan\source\repos\InsurancePolicyQuoteApp\InsurancePolicyQuote\obj\Debug\InsurancePolicyQuote.csproj.CopyComplete
