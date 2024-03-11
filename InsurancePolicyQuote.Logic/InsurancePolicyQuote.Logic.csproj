@@ -88,9 +88,9 @@
     <Compile Include="Model\NoClaimsBonus.cs" />
     <Compile Include="Model\Policy.cs" />
     <Compile Include="Model\Proposer.cs" />
-    <Compile Include="RatingTable\BaseRateTable.cs" />
-    <Compile Include="RatingTable\ClaimsTable.cs" />
-    <Compile Include="RatingTable\CoverTypeTable.cs" />
+    <Compile Include="Rating Table\BaseRateTable.cs" />
+    <Compile Include="Rating Table\ClaimsTable.cs" />
+    <Compile Include="Rating Table\CoverTypeTable.cs" />
     <Compile Include="Interfaces\IBaseRateTable.cs" />
     <Compile Include="Interfaces\IClaimsTable.cs" />
     <Compile Include="Interfaces\ICoverTypeTable.cs" />
@@ -102,14 +102,14 @@
     <Compile Include="Interfaces\IVehicleValueTable.cs" />
     <Compile Include="Interfaces\IMinimumPremiumTable.cs" />
     <Compile Include="Interfaces\IMotorConvictionsTable.cs" />
-    <Compile Include="RatingTable\MinimumPremiumTable.cs" />
-    <Compile Include="RatingTable\MotorConvictionsTable.cs" />
-    <Compile Include="RatingTable\SeatsTable.cs" />
-    <Compile Include="RatingTable\DriverAgeTable.cs" />
-    <Compile Include="RatingTable\VehicleAgeTable.cs" />
-    <Compile Include="RatingTable\VehicleTransmissionTable.cs" />
-    <Compile Include="RatingTable\VehicleUseTable.cs" />
-    <Compile Include="RatingTable\VehicleValueTable.cs" />
+    <Compile Include="Rating Table\MinimumPremiumTable.cs" />
+    <Compile Include="Rating Table\MotorConvictionsTable.cs" />
+    <Compile Include="Rating Table\SeatsTable.cs" />
+    <Compile Include="Rating Table\DriverAgeTable.cs" />
+    <Compile Include="Rating Table\VehicleAgeTable.cs" />
+    <Compile Include="Rating Table\VehicleTransmissionTable.cs" />
+    <Compile Include="Rating Table\VehicleUseTable.cs" />
+    <Compile Include="Rating Table\VehicleValueTable.cs" />
     <Compile Include="Model\Vehicle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

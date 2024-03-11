@@ -49,30 +49,30 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CalculationTests\DriverAgeCalculationTests.cs" />
-    <Compile Include="CalculationTests\SeatsCalculationTests.cs" />
-    <Compile Include="CalculationTests\MinimumPremiumCalculationCheckTests.cs" />
-    <Compile Include="CalculationTests\MotorClaimsCalculationTests.cs" />
-    <Compile Include="CalculationTests\MotorConvictionsCalculation.cs" />
-    <Compile Include="CalculationTests\VehicleTransmissionCalculationTests.cs" />
-    <Compile Include="CalculationTests\VehicleUseCalculationTests.cs" />
-    <Compile Include="CalculationTests\VehicleValueCalculationTests.cs" />
+    <Compile Include="Calculation Tests\DriverAgeCalculationTests.cs" />
+    <Compile Include="Calculation Tests\SeatsCalculationTests.cs" />
+    <Compile Include="Calculation Tests\MinimumPremiumCalculationCheckTests.cs" />
+    <Compile Include="Calculation Tests\MotorClaimsCalculationTests.cs" />
+    <Compile Include="Calculation Tests\MotorConvictionsCalculation.cs" />
+    <Compile Include="Calculation Tests\VehicleTransmissionCalculationTests.cs" />
+    <Compile Include="Calculation Tests\VehicleUseCalculationTests.cs" />
+    <Compile Include="Calculation Tests\VehicleValueCalculationTests.cs" />
     <Compile Include="Cover Tests\NCBTests.cs" />
     <Compile Include="Cover Tests\CoverTypeTests.cs" />
-    <Compile Include="DriverInputDetails\ParkingLocationTests.cs" />
-    <Compile Include="DriverInputDetails\MotorConvictionsTests.cs" />
-    <Compile Include="DriverInputDetails\VehicleUseTests.cs" />
+    <Compile Include="Driver Input Details\ParkingLocationTests.cs" />
+    <Compile Include="Driver Input Details\MotorConvictionsTests.cs" />
+    <Compile Include="Driver Input Details\VehicleUseTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="CalculationTests\BaseRateCalculationTests.cs" />
-    <Compile Include="UserInputTests\GenderTests.cs" />
-    <Compile Include="UserInputTests\RelationshipStatusTests.cs" />
-    <Compile Include="UserInputTests\DateOfBirthTests.cs" />
-    <Compile Include="VehicleInputTests\YearOfManufactureTests.cs" />
-    <Compile Include="VehicleInputTests\VehicleTransmissionTest.cs" />
-    <Compile Include="VehicleInputTests\VehicleValueTests.cs" />
-    <Compile Include="VehicleInputTests\VehicleSeatsTest.cs" />
-    <None Include="UserInputTests\FirstNameTests.cs" />
-    <Compile Include="UserInputTests\LastNameTests.cs" />
+    <Compile Include="Calculation Tests\BaseRateCalculationTests.cs" />
+    <Compile Include="User Input Tests\GenderTests.cs" />
+    <Compile Include="User Input Tests\RelationshipStatusTests.cs" />
+    <Compile Include="User Input Tests\DateOfBirthTests.cs" />
+    <Compile Include="Vehicle Input Tests\YearOfManufactureTests.cs" />
+    <Compile Include="Vehicle Input Tests\VehicleTransmissionTest.cs" />
+    <Compile Include="Vehicle Input Tests\VehicleValueTests.cs" />
+    <Compile Include="Vehicle Input Tests\VehicleSeatsTest.cs" />
+    <None Include="User Input Tests\FirstNameTests.cs" />
+    <Compile Include="User Input Tests\LastNameTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
