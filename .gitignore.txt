@@ -46,6 +46,9 @@ testlog.manifest
 # Ignore SQLite database files
 *.sqllite
 
+#Ignore ProjectSettings.Json
+ProjectSettings.Json
+
 
 # Ignore Visual Studio workspace state file
 VSWorkspaceState.json
