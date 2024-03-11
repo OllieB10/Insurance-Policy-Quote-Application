@@ -22,6 +22,9 @@
 # Ignore ReSharper files
 _ReSharper*/
 
+# Ignore
+slnx.sqlite
+
 # Ignore temporary files
 *.~*
 
